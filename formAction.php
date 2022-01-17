@@ -78,9 +78,9 @@ $file_tmp_name = $_FILES["file"]["tmp_name"];
 $credentials = $_COOKIE["credentials"];
 
 // Get your app info from JSON downloaded from google dev console
-//$json = json_decode(file_get_contents("GoogleCloud.json"), true);
-$CLIENT_ID = '358941079342-dhdhsdjs700cdvs5u1mffppfe2teuqqt.apps.googleusercontent.com';
-$CLIENT_SECRET = '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';
+$json = json_decode(file_get_contents("GoogleCloud.json"), true);
+$CLIENT_ID = '';
+$CLIENT_SECRET = '';
 $REDIRECT_URI = '';
 
 // Create a new Client
